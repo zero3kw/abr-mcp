@@ -1,0 +1,17 @@
+{
+  "name": "abr-mcp",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python3"
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "extensions": [
+    "editorconfig.editorconfig",
+    "ms-python.python",
+    "anthropic.claude-code"
+  ],
+  "mounts": [
+    "source=abr-mcp-claude,target=/root/.claude,type=volume"
+  ]
+}

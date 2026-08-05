@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__abr__list_datasets",
+      "mcp__abr__get_dataset",
+      "mcp__abr__search_field",
+      "mcp__abr__list_documents",
+      "mcp__abr__get_document",
+      "mcp__abr__search_docs"
+    ]
+  }
+}

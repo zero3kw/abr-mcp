@@ -1,0 +1,4 @@
+# ビルドコンテキストはリポジトリルート。イメージに必要なのは requirements.txt だけ
+# （scripts/ や specs/ は実行時に volume マウントするため COPY 不要）。全除外してから許可する。
+*
+!requirements.txt

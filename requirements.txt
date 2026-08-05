@@ -1,0 +1,4 @@
+# MCPサーバ（scripts/mcp_server.py）用
+# 上限を切っているのは 2.0 で FastMCP が MCPServer に改名され、現在の import が壊れるため。
+# 上げるときは mcp_server.py の `from mcp.server.fastmcp import FastMCP` を直す。
+mcp>=1.0,<2

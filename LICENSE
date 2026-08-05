@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 zero3kw
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE ON BUNDLED DATA (specs/ and docs/)
+
+The MIT license above applies to the source code of this project
+(scripts/, .claude/skills/, and configuration files).
+
+The Markdown files under specs/ and docs/ are NOT original works of this
+project. They are secondary works generated from public materials published by
+the Digital Agency of Japan and other public bodies (Cabinet Secretariat,
+Science Council of Japan, IPA, MLIT, GSI, e-Gov laws, etc.). Their use is
+governed by each source's own terms — primarily the Public Data License 1.0
+(PDL1.0) — not by the MIT license. See SOURCES.md for the source of every
+bundled file, and docs/terms_of_service.md for the Digital Agency terms
+(including the separate restrictions on 地番マスター / 地番マスター位置参照).

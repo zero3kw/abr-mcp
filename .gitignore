@@ -1,0 +1,15 @@
+.DS_Store
+.backup/
+
+__pycache__/
+*.pyc
+
+.claude/settings.local.json
+
+*.docx
+*.pptx
+*.xlsx
+*.pdf
+
+# 変換元の資料。コミットしない
+source/
