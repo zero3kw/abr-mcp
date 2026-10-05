@@ -22,11 +22,11 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 from common import DOCS_DIR, EXTRA_DOCS_DIRS, SPECS_DIR, normalize, tokenize
 
-mcp = FastMCP('abr')
+mcp = MCPServer('abr')
 
 
 def _parse(text, fallback_id='spec'):

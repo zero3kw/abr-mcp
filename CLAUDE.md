@@ -27,8 +27,8 @@ ABR（アドレス・ベース・レジストリ）の**データ定義（仕様
   セッションを続けたまま反映するには `reload_index()` を呼ぶしかない。
 - `get_document` は `_MAX_FULL`（8,000字）を超える文書の全文を返さず節一覧を返す。
   `dp_address_master_2021` が 112,680 字あり、全文を返すとコンテキストを使い切るため。
-- `requirements.txt` は `mcp>=1.0,<2`。2.0 で `FastMCP` が `MCPServer` に改名され、
-  上限を切らないと新しい環境で `ModuleNotFoundError` になる。
+- `requirements.txt` は `mcp>=2,<3`。`scripts/mcp_server.py` が使う `MCPServer` は 2.0 からの名前で、
+  1.x では `ModuleNotFoundError` になる。
 - ツールの一覧と用途は `scripts/mcp_server.py` 冒頭の docstring が正本。
 - `_parse_doc` は先頭フロントマターを `_split_frontmatter` で分離し、索引・節本文には載せない。
 - 仕様の重複見出し（blk_pos 等）はサーバが id で dedupe（保険）。docs の id 重複は先勝ち＋警告。

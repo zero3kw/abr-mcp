@@ -54,10 +54,16 @@ pip install -r requirements.txt
 python3 scripts/mcp_server.py     # stdio。起動して即終了しなければOK
 ```
 
-Claude Code への登録例:
+Claude Code への登録例（リポジトリのルートで実行する）:
 
 ```
-claude mcp add abr -- python3 /絶対パス/abr-mcp/scripts/mcp_server.py
+claude mcp add abr -- python3 "$(pwd)/scripts/mcp_server.py"
+```
+
+uv を使うと、依存を事前に入れずに起動できる:
+
+```
+claude mcp add abr -- uv run --with-requirements "$(pwd)/requirements.txt" python3 "$(pwd)/scripts/mcp_server.py"
 ```
 
 仕様は同梱の `specs/`、ドキュメントは同梱の `docs/` を索引する（場所は固定）。
